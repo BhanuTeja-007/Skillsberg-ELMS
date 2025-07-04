@@ -1,7 +1,6 @@
 
 # 📚 Skillsberg ELMS - Language Learning Management System
 
-![Skillsberg Logo](insert-your-logo-here.png)
 
 ## 🚀 Overview
 
@@ -49,8 +48,7 @@ Each subsystem is defined by responsibility and interface:
 - **Quiz/Assignment** → Upload, Submit, Grade
 - **Dashboard** → Role-specific views and analytics
 
-📌 *[Insert Logical View Diagram here]*  
-> `![Logical Architecture Diagram](./diagrams/logical-architecture.png)`
+![Architecture Logical View](https://github.com/user-attachments/assets/bdf4b0e7-3328-4f15-a20b-424afbe9016e)
 
 ---
 
@@ -63,8 +61,7 @@ This project contains 5 key UML Activity Diagrams:
 4. Password Update
 5. Secure User Management
 
-📌 *[Insert Sample Behavior Diagram]*  
-> `![User Registration Flow](./diagrams/user-registration-activity.png)`
+![Architecture Behavior View](https://github.com/user-attachments/assets/9c6751ef-76fe-4022-9581-5280bc39e851)
 
 ---
 
@@ -80,10 +77,11 @@ This project contains 5 key UML Activity Diagrams:
 Each component adheres to best practices and encapsulation:
 
 ### 👤 User Registration (Class Diagram)
-> `![User Registration UML](./diagrams/user-registration-class.png)`
+> ![User Registration - Class Diagram](https://github.com/user-attachments/assets/4c7e186b-fc9b-4f4d-a90a-4b281e325caa)
+
 
 ### 📑 Content Design (Class Diagram)
-> `![Content Design UML](./diagrams/content-design-class.png)`
+> ![image](https://github.com/user-attachments/assets/04adaec4-f8b8-43fc-b3df-c0c6441d5c15)
 
 ---
 
@@ -92,23 +90,28 @@ Each component adheres to best practices and encapsulation:
 - Authentication validates credentials.
 - Authorization checks user roles for permissions.
 
-> `![Access Control UML](./diagrams/auth-access-class.png)`
+> ![Access Control and Security - Class Diagram](https://github.com/user-attachments/assets/5c552094-7b8b-434e-a897-e0e4042e0b7a)
+
 
 ---
 
 ## 🧪 UML Sequence Diagrams
 
 1. **User Registration**  
-   `![Sequence - Registration](./diagrams/sequence-registration.png)`
+   ![User Registration - Sequence Diagram](https://github.com/user-attachments/assets/5f57c6bf-0a10-4955-93e8-0ed5e323d1ca)
+
 
 2. **Content Creation**  
-   `![Sequence - Content](./diagrams/sequence-content.png)`
+   ![Content Management - Seq Design](https://github.com/user-attachments/assets/e3b29ffa-eada-4deb-9950-6a9020e83157)
+
 
 3. **User Authentication**  
-   `![Sequence - Auth](./diagrams/sequence-auth.png)`
+   ![image](https://github.com/user-attachments/assets/4886094e-e5c1-43bc-bf44-b6267d4d88e6)
+
 
 4. **Course Enrollment**  
-   `![Sequence - Enrollment](./diagrams/sequence-enrollment.png)`
+   ![image](https://github.com/user-attachments/assets/f3d833f2-1776-475d-9c09-85b87ca0c581)
+
 
 ---
 
@@ -142,7 +145,8 @@ Each component adheres to best practices and encapsulation:
 
 ## ⚙️ Deployment Architecture
 
-> `![Deployment Diagram](./diagrams/deployment.png)`
+> ![image](https://github.com/user-attachments/assets/d827d8df-c0c6-4122-9314-faff370561d1)
+
 
 ---
 
@@ -184,16 +188,4 @@ npm start
 - 🤖 AI-based quiz recommendations
 - 🧩 SCORM compatibility
 
----
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Acknowledgements
-
-Thanks to our mentors and instructors at [Your University Name] for their support.
-
----
